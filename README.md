@@ -1,0 +1,1 @@
+Collection of scripts used in the analysis of data for manuscript entitled "Fluctuating redox in tropical rainforest soils impacts genetic potential for alternative electron acceptor utilization"<img width="468" height="42" alt="image" src="https://github.com/user-attachments/assets/61fa2b0b-f500-42d5-9a16-1ea220eceada" />
