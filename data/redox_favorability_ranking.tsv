@@ -1,0 +1,24 @@
+rank	short_name	long_name	E_ref	redox_index	redox_index_scaled	n_e	source_note
+1	N2O_N2	nitrous oxide => nitrogen	1.769	-1.769	0	2	Bratsch
+2	cyt_o	Low affinity: Cytochrome o ubiquinol oxidase	1.2291	-1.2413910000000001	0.20772007874015738	NA	Heuristic ranking anchored to O2/H2O E_ref and separated using relative heme midpoint potentials
+3	cyt_c	Low affinity: Cytochrome c oxidase	1.2291	-1.2377142051282053	0.2091676357762971	NA	Heuristic ranking anchored to O2/H2O E_ref and separated using relative heme midpoint potentials
+4	cyt_cp	Low affinity: Cytochrome c oxidase, prokaryotes	1.2291	-1.2377142051282053	0.2091676357762971	NA	Heuristic ranking anchored to O2/H2O E_ref and separated using relative heme midpoint potentials
+5	cyt_cbb3	High affinity: Cytochrome c oxidase, cbb3-type	1.2291	-1.231686887820513	0.21154059534625472	NA	Heuristic ranking anchored to O2/H2O E_ref and separated using relative heme midpoint potentials
+6	cyt_bd	High affinity: Cytochrome bd ubiquinol oxidase	1.2291	-1.2291	0.21255905511811016	NA	Heuristic ranking anchored to O2/H2O E_ref and separated using relative heme midpoint potentials
+7	DNRA	Dissimilatory nitrate reduction to ammonium (DNRA)	0.88	-0.88	0.35	8	Bratsch direct NO3-/NH4+ couple
+8	Fe3_Fe2	Iron Reduction Fe(III) => Fe(II)	0.771	-0.771	0.3929133858267716	1	Bratsch
+9	NO_N2O	nitric oxide => nitrous oxide	0.759	-0.759	0.39763779527559046	2	Bratsch
+10	NH3_N2	ammonia => nitrogen	0.736	-0.736	0.40669291338582675	6	Reverse of nitrogen => ammonia
+11	S2O3_SO3	thiosulfate => sulfite	0.566	-0.566	0.4736220472440944	4	Reverse of Bratsch SO3^2-/S2O3^2-,OH- couple
+12	SO4_H2S	dissimilatory sulfate reduction (and oxidation) sulfate => sulfide	0.30074999999999996	-0.30074999999999996	0.5780511811023621	8	Composite SO4->S0 and S0->H2S reference potentials; electron-weighted
+13	NH3_NO2	Bacterial/Archaeal ammonia oxidation	0.165	-0.165	0.6314960629921259	6	Reverse of Bratsch NO2-/NH3,OH- couple; verify exact source value
+14	NH3_NO2_aerobic	Bacterial (aerobic-specific) ammonia oxidation	0.165	-0.165	0.6314960629921259	6	Reverse of Bratsch NO2-/NH3,OH- couple; verify exact source value
+15	S4O6_S2O3	tetrathionate => thiosulfate	0.024	-0.024	0.6870078740157479	2	Bratsch
+16	NO3_NO2	nitrate => nitrite	0.017	-0.017	0.6897637795275591	2	Bratsch
+17	NO2_NO3	nitrite => nitrate	-0.017	0.017	0.7031496062992125	2	Reverse of nitrate => nitrite
+18	NO2_NH3	nitrite => ammonia	-0.165	0.165	0.7614173228346456	6	Bratsch NO2-/NH3,OH- couple; verify exact source value
+19	S2O3_SO4	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	-0.294	0.294	0.8122047244094487	8	Composite Bratsch couples: SO4^2-/SO2 (0.158 V) and SO2/HS2O3- (0.430 V); electron-weighted and reversed for thiosulfate oxidation
+20	NO2_NO	nitrite => nitric oxide	-0.481	0.481	0.8858267716535433	1	Bratsch
+21	SO3_S2O3	sulfite => thiosulfate	-0.566	0.566	0.9192913385826771	4	Bratsch SO3^2-/S2O3^2-,OH- couple
+22	N2_NH3	nitrogen => ammonia	-0.736	0.736	0.9862204724409448	6	Bratsch
+23	Fe2_Fe3	Iron Oxidation Fe(II) => Fe(III)	-0.771	0.771	1	1	Reverse of Fe3+/Fe2+
